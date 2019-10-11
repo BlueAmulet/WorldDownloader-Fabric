@@ -1,0 +1,46 @@
+{
+  "mappings": {
+    "pokechu22/fabricwdl/mixin/MixinCrashReport": {
+      "fillSystemDetails": "Lnet/minecraft/class_128;method_559()V"
+    },
+    "pokechu22/fabricwdl/mixin/MixinGameMenuScreen": {
+      "initWidgets": "Lnet/minecraft/class_433;method_20543()V",
+      "method_19836": "Lnet/minecraft/class_433;method_19836(Lnet/minecraft/class_4185;)V"
+    },
+    "pokechu22/fabricwdl/mixin/MixinClientPlayNetworkHandler": {
+      "onUnloadChunk": "Lnet/minecraft/class_634;method_11107(Lnet/minecraft/class_2666;)V",
+      "onDisconnected": "Lnet/minecraft/class_634;method_10839(Lnet/minecraft/class_2561;)V",
+      "onChatMessage": "Lnet/minecraft/class_634;method_11121(Lnet/minecraft/class_2635;)V",
+      "onBlockAction": "Lnet/minecraft/class_634;method_11158(Lnet/minecraft/class_2623;)V",
+      "onMapUpdate": "Lnet/minecraft/class_634;method_11088(Lnet/minecraft/class_2683;)V",
+      "onCustomPayload": "Lnet/minecraft/class_634;method_11152(Lnet/minecraft/class_2658;)V"
+    },
+    "pokechu22/fabricwdl/mixin/MixinClientWorld": {
+      "tick": "Lnet/minecraft/class_638;method_8441(Ljava/util/function/BooleanSupplier;)V",
+      "removeEntity": "Lnet/minecraft/class_638;method_2945(I)V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "pokechu22/fabricwdl/mixin/MixinCrashReport": {
+        "fillSystemDetails": "Lnet/minecraft/class_128;method_559()V"
+      },
+      "pokechu22/fabricwdl/mixin/MixinGameMenuScreen": {
+        "initWidgets": "Lnet/minecraft/class_433;method_20543()V",
+        "method_19836": "Lnet/minecraft/class_433;method_19836(Lnet/minecraft/class_4185;)V"
+      },
+      "pokechu22/fabricwdl/mixin/MixinClientPlayNetworkHandler": {
+        "onUnloadChunk": "Lnet/minecraft/class_634;method_11107(Lnet/minecraft/class_2666;)V",
+        "onDisconnected": "Lnet/minecraft/class_634;method_10839(Lnet/minecraft/class_2561;)V",
+        "onChatMessage": "Lnet/minecraft/class_634;method_11121(Lnet/minecraft/class_2635;)V",
+        "onBlockAction": "Lnet/minecraft/class_634;method_11158(Lnet/minecraft/class_2623;)V",
+        "onMapUpdate": "Lnet/minecraft/class_634;method_11088(Lnet/minecraft/class_2683;)V",
+        "onCustomPayload": "Lnet/minecraft/class_634;method_11152(Lnet/minecraft/class_2658;)V"
+      },
+      "pokechu22/fabricwdl/mixin/MixinClientWorld": {
+        "tick": "Lnet/minecraft/class_638;method_8441(Ljava/util/function/BooleanSupplier;)V",
+        "removeEntity": "Lnet/minecraft/class_638;method_2945(I)V"
+      }
+    }
+  }
+}

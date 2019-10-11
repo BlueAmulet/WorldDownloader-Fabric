@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "package": "pokechu22.fabricwdl.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+  ],
+  "client": [
+    "MixinClientPlayNetworkHandler",
+    "MixinClientWorld",
+    "MixinCrashReport",
+	"MixinGameMenuScreen"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "refmap": "fabricwdl-refmap.json"
+}

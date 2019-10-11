@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "wdl",
+  "version": "${version}",
+
+  "name": "WorldDownloader",
+  "description": "Makes a copy of parts of a multiplayer world for singleplayer use.",
+  "authors": [
+    "Pokechu22",
+    "gamax92"
+  ],
+  "contact": {
+    "sources": "https://github.com/Pokechu22/WorldDownloader"
+  },
+
+  "license": "MMPL-2.0.3",
+  "icon": "assets/wdl/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "pokechu22.fabricwdl.FabricWDL"
+    ]
+  },
+  "mixins": [
+    "wdl.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.4.0",
+    "fabric": "*"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}
